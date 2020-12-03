@@ -24,7 +24,7 @@
   "exports": {
     ".": {
       "import": "./sync-labels.js",
-      "require": "./sync-labels.cjs"
+      "require": "./sync-labels.js"
     },
   },
   "scripts": {}
