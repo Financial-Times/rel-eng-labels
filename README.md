@@ -88,7 +88,7 @@ Add the new color value to the `colors` object. Change the `color` property for 
 
 ## Exports
 
-`{ syncLabels }`, where `syncLabels` is a function expecting a single config object with the following required properties:
+`require('@financial-times/rel-eng-labels')`, which exports `{ syncLabels }`, where `syncLabels` is a function expecting a single config object with the following required properties:
 - `accessToken` - Github API access token
 - `repository` - name of the repository, including the organisation e.g. `Financial-Times/biz-ops-api`
 - `logger` Choice of logger (must implement `info` and `warn` methods)
