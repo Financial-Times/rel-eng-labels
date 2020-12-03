@@ -82,6 +82,18 @@ Change the `description` property for the label you wish to update.
 
 Add the new color value to the `colors` object. Change the `color` property for the label you wish to update.
 
+## Use as a standalone node library
+
+`npm install Financial-Times/rel-eng-labels#v1`
+
+## Exports
+
+`{ syncLabels }`, where `syncLabels` is a function expecting a single config object with the following required properties:
+- `accessToken` - Github API access token
+- `repository` - name of the repository, including the organisation e.g. `Financial-Times/biz-ops-api`
+- `logger` Choice of logger (must implement `info` and `warn` methods)
+
+`syncLabels` will synchronise a repository's labels to match the set defined in `rel-eng-labels`
 
 ## Development
 
