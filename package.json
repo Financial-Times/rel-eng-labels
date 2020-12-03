@@ -21,11 +21,5 @@
   },
   "devDependencies": {},
   "main": "./index.js",
-  "exports": {
-    ".": {
-      "import": "./sync-labels.js",
-      "require": "./sync-labels.cjs"
-    },
-  },
   "scripts": {}
 }
